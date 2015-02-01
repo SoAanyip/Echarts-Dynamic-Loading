@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模拟ECharts的force图动态加载</title>
+	<style>
+        #cont{
+            position: relative;
+        }
+		#main{
+			width: 80%;
+		}
+        #loading{
+            position: absolute;
+            top: 200px;
+            left: 400px;
+            font-size: 60px;
+            color: #121212;
+        }
+	</style>
+</head>
+<body>
+	<div id="cont">
+        <div id="main" style="height:500px;border:1px solid #ccc;padding:10px;">
+        </div>
+        <h1 id="loading">Loading...</h1>
+    </div>
+	<script src="js/echarts-all-2.1.10.js"></script>
+    <script src="js/config.me.js"></script>
+	<script src="js/macarons.me.js"></script>
+    <script src="js/example.js"></script>
+</body>
+</html>
